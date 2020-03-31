@@ -2,7 +2,11 @@ const randQuote = `http://api.quotable.io/random`;
 const showQuote = document.getElementById(`quoteDisplay`);
 const quoteInput = document.getElementById(`quoteInput`);
 
-quoteInput.addEventListener("input", () => {});
+quoteInput.addEventListener("input", () => {
+  const arrayQuote = showQuote.querySelectorAll("span");
+  const arrayValue = quoteInput.value.split("");
+  arrayQuote.forEach((characterSpan, index) => {});
+});
 
 function getQuote() {
   return fetch(randQuote)
