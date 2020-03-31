@@ -2,6 +2,8 @@ const randQuote = `http://api.quotable.io/random`;
 const showQuote = document.getElementById(`quoteDisplay`);
 const quoteInput = document.getElementById(`quoteInput`);
 
+quoteInput.addEventListener("input", () => {});
+
 function getQuote() {
   return fetch(randQuote)
     .then(response => response.json())
