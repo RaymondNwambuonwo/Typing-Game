@@ -1,6 +1,6 @@
 const randQuote = `http://api.quotable.io/random`;
 const showQuote = document.getElementById(`quoteDisplay`);
-// const quoteInput
+const quoteInput = document.getElementById(`quoteInput`);
 
 function getQuote() {
   return fetch(randQuote)
@@ -11,6 +11,7 @@ function getQuote() {
 async function showNewQuote() {
   const quote = await getQuote();
   showQuote.innerText = quote;
+  quoteInput.value = null;
 }
 
 showNewQuote();
