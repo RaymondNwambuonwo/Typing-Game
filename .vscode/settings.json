@@ -1,0 +1,7 @@
+{
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.showExpandedAbbreviation": "never",
+  "emmet.showAbbreviationSuggestions": false,
+  "editor.snippetSuggestions": "top",
+  "php.suggest.basic": false
+}
