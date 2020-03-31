@@ -31,3 +31,17 @@ quote-input {
   color: bisque;
   font-weight: bold;
 }
+
+.quote-display {
+  margin-bottom: 1rem;
+}
+
+.quote-input {
+  background-color: transparent;
+  border: 2px solid #a1922e;
+  outline: none;
+}
+
+.quote-input:focus {
+  border-color: black;
+}
