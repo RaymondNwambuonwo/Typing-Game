@@ -2,7 +2,7 @@
 
 # About
 
-A vanilla Javascript typing application where you can assess how fast you can type random statements that appear along with a timer to track how long it takes you to type the statement.
+A vanilla Javascript typing application where you can assess how fast you can type random statements that appear along with a timer to track how long it takes you to type the statement. This application covers using a thrid party API and fetch along with async.
 
 ## Technologies Used
 
