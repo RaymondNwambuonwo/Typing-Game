@@ -5,7 +5,13 @@ const quoteInput = document.getElementById(`quoteInput`);
 quoteInput.addEventListener("input", () => {
   const arrayQuote = showQuote.querySelectorAll("span");
   const arrayValue = quoteInput.value.split("");
-  arrayQuote.forEach((characterSpan, index) => {});
+  arrayQuote.forEach((characterSpan, index) => {
+    const character = arrayValue[index];
+    if (character == null) {
+      characterSpan.classList.remove("correct");
+      characterSpan.classList.remove("incorrect");
+    }
+  });
 });
 
 function getQuote() {
