@@ -14,7 +14,7 @@ A vanilla Javascript typing application where you can assess how fast you can ty
 
 ## Deployed Site
 
-My website can be found [here](type-speed.netlify.com)
+My website can be found [here](https://type-speed.netlify.com)
 
 # Future Development
 
