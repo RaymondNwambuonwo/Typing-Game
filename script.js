@@ -1,7 +1,7 @@
-const randQuote = `http://api.quotable.io/random`;
+const randQuote = "http://api.quotable.io/random";
 const showQuote = document.getElementById("quoteDisplay");
 const quoteInput = document.getElementById("quoteInput");
-const timer = document.getElementById("timer");
+const timerClock = document.getElementById("timer");
 
 quoteInput.addEventListener("input", () => {
   const arrayQuote = showQuote.querySelectorAll("span");
@@ -34,7 +34,7 @@ function receiveQuote() {
 
 async function showNewQuote() {
   const quote = await receiveQuote();
-  showQuote.innerText = "";
+  showQuote.innerHTML = "";
   quote.split("").forEach(character => {
     const characterSpan = document.createElement("span");
     characterSpan.innerText = character;
@@ -46,10 +46,10 @@ async function showNewQuote() {
 
 let startTime;
 function startTimer() {
-  timer.innerText = 0;
+  timerClock.innerText = 0;
   startTime = new Date();
   setInterval(() => {
-    timer.innerText = getTimerTime();
+    timerClock.innerText = getTimerTime();
   }, 1000);
 }
 function getTimerTime() {
