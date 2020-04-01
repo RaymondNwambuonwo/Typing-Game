@@ -47,7 +47,7 @@ body,
 }
 
 .quote-input {
-  background-color: transparent;
+  /* background-color: transparent; */
   border: 2px solid #a1922e;
   outline: none;
   width: 100%;

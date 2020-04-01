@@ -1,4 +1,4 @@
-const randQuote = "http://api.quotable.io/random";
+const randQuote = `http://api.quotable.io/random`;
 const showQuote = document.getElementById("quoteDisplay");
 const quoteInput = document.getElementById("quoteInput");
 const timer = document.getElementById("timer");
