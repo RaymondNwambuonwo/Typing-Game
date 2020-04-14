@@ -10,9 +10,8 @@ A vanilla Javascript typing application where you can assess how fast you can ty
 2. CSS
 3. JavaScript
 
-<img width="1440" alt="Screen Shot 2020-03-31 at 5 17 40 PM" src="https://user-images.githubusercontent.com/54545904/78075990-8e0ef680-7373-11ea-9f01-10e9c29626fc.png">
+![Typing Game](https://user-images.githubusercontent.com/54545904/79242426-5196cc80-7e42-11ea-8185-df54ed9048cb.gif)
 
-# Contributing
 
-1. Fork or Clone Repository 
-2. Code away!
+# Use
+* Fork and clone repository
