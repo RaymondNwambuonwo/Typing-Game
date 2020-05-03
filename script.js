@@ -1,3 +1,4 @@
+console.log("hello");
 const randQuote = "http://api.quotable.io/random";
 const showQuote = document.getElementById("quoteDisplay");
 const quoteInput = document.getElementById("quoteInput");
@@ -28,14 +29,14 @@ quoteInput.addEventListener("input", () => {
 
 function receiveQuote() {
   return fetch(randQuote)
-    .then(response => response.json())
-    .then(data => data.content);
+    .then((response) => response.json())
+    .then((data) => data.content);
 }
 
 async function showNewQuote() {
   const quote = await receiveQuote();
   showQuote.innerHTML = "";
-  quote.split("").forEach(character => {
+  quote.split("").forEach((character) => {
     const characterSpan = document.createElement("span");
     characterSpan.innerText = character;
     showQuote.appendChild(characterSpan);
