@@ -2,7 +2,7 @@
 
 # About
 
-A vanilla Javascript typing application where you can assess how fast you can type random statements that appear along with a timer to track how long it takes you to type the statement. This application covers using a thrid party API and fetch along with async.
+A vanilla Javascript typing application where you can assess how fast you can type random statements that appear along with a timer to track how long it takes you to type the statement. When you type the statement incorrectly, the characters are highlighted red. When you type characters correctly, the characters are highlighted green. Once statement is typed correctly, another statment will generate for you to type. I wanted to develop a simple application that resembled older typing games and utilized an API to generate random statements, varying in length, that a person can type. This application covers using a thrid party API and async.
 
 ## Technologies Used
 
@@ -10,12 +10,8 @@ A vanilla Javascript typing application where you can assess how fast you can ty
 2. CSS
 3. JavaScript
 
-<img width="1440" alt="Screen Shot 2020-03-31 at 5 17 40 PM" src="https://user-images.githubusercontent.com/54545904/78075990-8e0ef680-7373-11ea-9f01-10e9c29626fc.png">
+![Typing Game](https://user-images.githubusercontent.com/54545904/79242426-5196cc80-7e42-11ea-8185-df54ed9048cb.gif)
 
-## Deployed Site
 
-My website can be found [here](https://type-speed.netlify.com)
-
-# Future Development
-
-In the future I am looking to add a more dynamic look to the layout.
+# Use
+* Fork and clone repository
